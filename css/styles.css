@@ -30,6 +30,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 .logo-decor {
     color: var(--accent-color);
@@ -79,7 +80,7 @@ body {
 .footer-nav .link-footer, .link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
 }
 
 .link-footer {
@@ -119,27 +120,27 @@ footer .logo {
     letter-spacing: 0.06em;
 }
 .benefits-title {
-    /* color: ; */
+    /* hide */
 }
 .benefits .title{
     color: var(--secondary-text-color);
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .benefit{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24;
 }
 .activity-title,
 .team-title {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17px;
+    line-height: 1.17;
     text-align: center;
 }
 .team-member {
@@ -147,18 +148,24 @@ footer .logo {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
 }
 .member-role{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
 }
 
 
 /* Main content portfolio.html */
-.filter-button{
+
+.filter-button {
     background-color: var(--secondary-background-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
 .filter-button:hover,
 .filter-button:focus
@@ -168,4 +175,14 @@ footer .logo {
 }
 .portfolio-work{
     color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
