@@ -43,6 +43,8 @@ body {
 }
 .site-nav .link {
     color: var(--secondary-text-color);
+
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,6 +53,8 @@ body {
 
 .site-nav .link.current {
     color: var(--accent-color);
+
+    text-decoration: none;
 }
 .auth-nav {
     font-weight: 500;
@@ -62,6 +66,7 @@ body {
 .auth-nav .link,
 .footer-nav .link {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -78,13 +83,14 @@ body {
 } 
 
 .footer-nav .link-footer, .link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .link-footer {
     color: var(--white-color);
+
+    text-decoration: none;
 }
 .link-footer:hover,
 .link-footer:focus {
@@ -118,9 +124,25 @@ footer .logo {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
-.benefits-title {
-    /* hide */
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .benefits .title{
     color: var(--secondary-text-color);
@@ -131,9 +153,8 @@ footer .logo {
     text-transform: uppercase;
 }
 .benefit{
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24;
+    line-height: 1.71;
 }
 .activity-title,
 .team-title {
@@ -151,7 +172,6 @@ footer .logo {
     line-height: 1.19;
 }
 .member-role{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -166,6 +186,8 @@ footer .logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+
+    cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus
@@ -182,7 +204,6 @@ footer .logo {
     letter-spacing: 0.06em;
 }
 .portfolio .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
