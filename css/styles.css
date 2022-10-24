@@ -64,15 +64,15 @@ body {
 }
 
 .auth-nav .link,
-.footer-nav .link {
+address .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus,
-.footer-nav .link:hover,
-.footer-nav .link:focus {
+address .link:hover,
+address .link:focus {
     color: var(--accent-color);
 }
 
@@ -82,7 +82,7 @@ body {
     background-color: #2F303A;
 } 
 
-.footer-nav .link-footer, .link {
+.link-footer, .link {
     font-size: 14px;
     line-height: 1.71;
 }
@@ -195,7 +195,7 @@ overflow: hidden;
     color: var(--white-color);
     background-color: var(--accent-color);
 }
-.portfolio-work{
+.portfolio .title{
     color: var(--secondary-text-color);
 
     font-weight: 700;
