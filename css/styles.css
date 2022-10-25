@@ -63,6 +63,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+address{
+    font-style: normal;
+}
+
 .auth-nav .link,
 address .link {
     color: var(--primary-text-color);
@@ -85,7 +89,6 @@ address .link:focus {
 .link-footer, .link {
     font-size: 14px;
     line-height: 1.71;
-    font-style: normal;
 }
 
 .link-footer {
