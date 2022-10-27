@@ -192,6 +192,7 @@ overflow: hidden;
     line-height: 1.63;
 
     cursor: pointer;
+    border: none;
 }
 .filter-button:hover,
 .filter-button:focus
